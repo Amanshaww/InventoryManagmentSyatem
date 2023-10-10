@@ -1,0 +1,42 @@
+.form-control{
+    width: 424px;
+    height: 458px;
+    top: 15%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 13%);
+    box-sizing: border-box;
+    padding: 73px 27px;
+    color: red;
+    font-weight: bold;
+    font-size: 26px;
+
+}
+h2{
+    text-align: center;
+    font-size: 62px;
+    color: rgb(245, 181, 85);
+}
+body{
+    background:url(image3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn{
+    height: 35px;
+    background: red;
+    color: white;
+    border-radius: 8px;
+    position: absolute;
+    left: 35%;
+    width: 119px;
+}
+.btn:hover{
+    cursor:pointer;
+    background: purple;
+    color: yellow;
+}
+.form-control input[type="text"],input[type="number"],input[type="date"]{
+    height: 19px;
+    width: 191px;
+}
